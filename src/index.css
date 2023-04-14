@@ -9,6 +9,7 @@
   width: fit-content;
   margin: 150px auto;
   display: flex;
+  border: 1px solid red;
 }
 
 .user img {
@@ -23,9 +24,9 @@
 
 .info {
   padding: 10px 50px;
-  transform: translateX(0px)
-  opacity:1;
-  transition:transform 1s, opacity 1s;
+  transform: translateX(0px);
+  opacity: 1;
+  transition: transform 1s, opacity 1s;
 }
 
 .info h1 {
@@ -75,16 +76,16 @@
   transform: rotate(-30deg);
 }
 
-.hide-details .info{
+.hide-details .info {
   transform: translateX(50px);
   opacity: 0;
 }
 
-.hide-details .close-icon{
+.hide-details .close-icon {
   transform: translateX(-410px);
 }
 
-.hide-details img{
+.hide-details img {
   transform: translateX(410px);
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
 }
